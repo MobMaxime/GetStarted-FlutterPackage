@@ -1,5 +1,7 @@
 # Flutter Getting Started Layout
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/25283ed8fd2b4f65b86dd1124632bf2b)](https://app.codacy.com/app/iamriya/GetStarted-FlutterPackage?utm_source=github.com&utm_medium=referral&utm_content=iamriya/GetStarted-FlutterPackage&utm_campaign=Badge_Grade_Dashboard)
+
 A Custom Getting Started Layout with custom Fonts and Colors.
 
 ## Preview
@@ -28,8 +30,9 @@ import 'package:page_indicator/page_indicator.dart';
 
 3.  Adding GetStarted layout
 
-*With required parameters*
+#With required parameters#
 
+```dart
    //In the body of your MaterialApp,
    
     body: GetStarted(pageList, pageObj, IndicatorShape.circle(size: 12.0),
@@ -46,9 +49,11 @@ import 'package:page_indicator/page_indicator.dart';
      void _finishPress() {
        //define your lastNextButton functionality here.
      }            
-           
-*With optional parameters*
+  ```         
 
+#With optional parameters#
+
+```dart
    //All the properties defined for 'page' have some default values. Hence, you may skip some size, etc. if you wish to! But defining a pageObj of page class is a must, so as to pass it as a parameter in GetStarted().
         
           page pageObj = new page(
@@ -90,12 +95,12 @@ import 'package:page_indicator/page_indicator.dart';
               size: 100.0,
             ))
         ];    
-    
-
+ ```   
 
 ## How to use
 Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
 
+```dart
 //Example how to use
 
           @override
@@ -107,7 +112,7 @@ Check out the **example** app in the [example](example) directory or the 'Exampl
                   body: GetStarted(pageList : pageList),
                   
                   //Required Field with Optional
-                  body: GetStarted(pageList : pageList, pg: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
+                  body: GetStarted(pageList : pageList, pageStyle: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
                   onFinishPress: _finishPress, onSkipPress: _skipPress),
                 ),
               );
@@ -120,6 +125,7 @@ Check out the **example** app in the [example](example) directory or the 'Exampl
           void _finishPress() {
                 //define your lastNextButton functionality here.
           }
+```
 
 ## Getting Started
 
