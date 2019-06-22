@@ -2,6 +2,8 @@
 
 A Custom Getting Started Layout with custom Fonts and Colors.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3221ca82fbe64c9fbb95beaeb4ea7091)](https://www.codacy.com/app/dharmik/GetStarted-FlutterPackage?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MobMaxime/GetStarted-FlutterPackage&amp;utm_campaign=Badge_Grade)
+
 ## Preview
 
 ![The example app running in Android](https://github.com/MobMaxime/GetStarted-FlutterPackage/blob/master/walkthrough/gif/GettingStarted.gif)
