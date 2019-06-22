@@ -1,6 +1,6 @@
 # Flutter Getting Started Layout
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/25283ed8fd2b4f65b86dd1124632bf2b)](https://app.codacy.com/app/iamriya/GetStarted-FlutterPackage?utm_source=github.com&utm_medium=referral&utm_content=iamriya/GetStarted-FlutterPackage&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3221ca82fbe64c9fbb95beaeb4ea7091)](https://www.codacy.com/app/dharmik/GetStarted-FlutterPackage?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MobMaxime/GetStarted-FlutterPackage&amp;utm_campaign=Badge_Grade)
 
 A Custom Getting Started Layout with custom Fonts and Colors.
 
