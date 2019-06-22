@@ -112,8 +112,7 @@ Check out the **example** app in the [example](example) directory or the 'Exampl
                   body: GetStarted(pageList : pageList),
                   
                   //Required Field with Optional
-                  body: GetStarted(pageList : pageList, pageStyle: pageObj, indicatorShape : IndicatorShape.circle(size: 12.0),
-                  onFinishPress: _finishPress, onSkipPress: _skipPress),
+                  //body: GetStarted(pageList : pageList, pageStyle: pageObj, indicatorShape : IndicatorShape.circle(size: //12.0),onFinishPress: _finishPress, onSkipPress: _skipPress),
                 ),
               );
             }
